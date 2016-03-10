@@ -1,0 +1,26 @@
+{
+  "name": "kanban",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Dnl Lvr",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.0.0-alpha.2",
+    "jsonwebtoken": "^5.0.5",
+    "mongoose": "^4.1.3",
+    "body-parser": "^1.13.3",
+    "q": "1.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AzuObs/kanban"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
